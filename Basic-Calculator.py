@@ -1,4 +1,3 @@
-
 def add(x, y):
     z = x + y
     return z
@@ -14,13 +13,13 @@ def divide (x, y):
     z = x / y
     return z    
 
-print("Select Operation")
-print("1.add")
-print("2.subtract")
-print("3.multiply")
-print("4. divide")
+print("Select Operation ")
+print("1. Add ")
+print("2. SUbtract ")
+print("3. Multiply ")
+print("4. Divide ")
 
-choice = input("Enter choice(1/2/3/4:")
+choice = input("Enter Choice (1/2/3/4): ")
 while True:
     num1 = input("Enter First number: ")
     num2 = input("Enter seconed number:")
@@ -30,6 +29,7 @@ while True:
         break
     except:
         continue
+        
 if choice == "1":
     print(str(num1) + "+" + str(num2) + "=" + str(add(num1,num2)))
     input("")
